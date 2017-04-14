@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="DoctorAdviceCell" rowHeight="135" id="KGk-i7-Jjw" customClass="DoctorAdviceCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="135"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="287" height="134"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="科室:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DoA-JR-Lae">
+                        <rect key="frame" x="24" y="15" width="38" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="床号:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EFp-FA-29x">
+                        <rect key="frame" x="24" y="44.5" width="38" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="入院时间:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8pT-A4-c1p">
+                        <rect key="frame" x="24" y="74" width="70" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="出院时间:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z8E-TB-Hew">
+                        <rect key="frame" x="24" y="103.5" width="70" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="科室:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W5j-PK-apJ">
+                        <rect key="frame" x="66" y="15" width="38" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="科室:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6yx-Va-xoF">
+                        <rect key="frame" x="66" y="44.5" width="38" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="科室:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZR-6f-N1g">
+                        <rect key="frame" x="98" y="74" width="38" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="科室:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OMw-iH-qg0">
+                        <rect key="frame" x="98" y="104" width="38" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="8pT-A4-c1p" firstAttribute="leading" secondItem="EFp-FA-29x" secondAttribute="leading" id="1Yp-6X-fid"/>
+                    <constraint firstItem="DoA-JR-Lae" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="7" id="9GZ-a9-48g"/>
+                    <constraint firstItem="EFp-FA-29x" firstAttribute="top" secondItem="DoA-JR-Lae" secondAttribute="bottom" constant="10" id="A8b-QH-Dps"/>
+                    <constraint firstItem="Z8E-TB-Hew" firstAttribute="leading" secondItem="DoA-JR-Lae" secondAttribute="leading" id="Chx-h5-JPX"/>
+                    <constraint firstItem="DoA-JR-Lae" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="16" id="HZx-pl-cD0"/>
+                    <constraint firstItem="6yx-Va-xoF" firstAttribute="leading" secondItem="EFp-FA-29x" secondAttribute="trailing" constant="4" id="Q1k-cl-TLc"/>
+                    <constraint firstItem="W5j-PK-apJ" firstAttribute="centerY" secondItem="DoA-JR-Lae" secondAttribute="centerY" id="T4l-Mf-LXe"/>
+                    <constraint firstItem="aZR-6f-N1g" firstAttribute="leading" secondItem="8pT-A4-c1p" secondAttribute="trailing" constant="4" id="X8l-od-Onf"/>
+                    <constraint firstItem="aZR-6f-N1g" firstAttribute="centerY" secondItem="8pT-A4-c1p" secondAttribute="centerY" id="ZV3-v3-NVw"/>
+                    <constraint firstItem="OMw-iH-qg0" firstAttribute="centerY" secondItem="Z8E-TB-Hew" secondAttribute="centerY" id="caV-yO-r6f"/>
+                    <constraint firstItem="W5j-PK-apJ" firstAttribute="leading" secondItem="DoA-JR-Lae" secondAttribute="trailing" constant="4" id="dyg-YL-VON"/>
+                    <constraint firstItem="6yx-Va-xoF" firstAttribute="centerY" secondItem="EFp-FA-29x" secondAttribute="centerY" id="eJ2-Ya-2Dw"/>
+                    <constraint firstItem="8pT-A4-c1p" firstAttribute="top" secondItem="EFp-FA-29x" secondAttribute="bottom" constant="10" id="h2F-rL-kaW"/>
+                    <constraint firstItem="EFp-FA-29x" firstAttribute="leading" secondItem="DoA-JR-Lae" secondAttribute="leading" id="kHm-k7-LKv"/>
+                    <constraint firstItem="OMw-iH-qg0" firstAttribute="leading" secondItem="Z8E-TB-Hew" secondAttribute="trailing" constant="4" id="lcR-V2-RG5"/>
+                    <constraint firstItem="Z8E-TB-Hew" firstAttribute="top" secondItem="8pT-A4-c1p" secondAttribute="bottom" constant="10" id="ujt-U3-qvk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bedNumLabel" destination="6yx-Va-xoF" id="rxn-Iu-9J1"/>
+                <outlet property="departmentLabel" destination="W5j-PK-apJ" id="egd-e5-AOo"/>
+                <outlet property="inHospitalTimeLabel" destination="aZR-6f-N1g" id="N3t-IG-dXF"/>
+                <outlet property="outHospitalLabel" destination="OMw-iH-qg0" id="det-SS-YmL"/>
+                <outlet property="recordID" destination="EFp-FA-29x" id="rP9-4A-5wV"/>
+            </connections>
+            <point key="canvasLocation" x="27" y="55.5"/>
+        </tableViewCell>
+    </objects>
+</document>

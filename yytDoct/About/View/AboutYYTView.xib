@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AboutYYTView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rff-sG-gXh">
+                    <rect key="frame" x="12" y="12" width="351" height="643"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="       广州云医科技有限公司，是一家专注于移动医疗领域的互联网企业。通过对公立医院信息系统的移动化和互连互通，实现城市医疗的统一管理，统一服务，坚持为医生、患者提供优质的健康信息技术支持和服务。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xbv-em-7WQ">
+                            <rect key="frame" x="14" y="14" width="323" height="95.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jim-Is-Ryr">
+                            <rect key="frame" x="14" y="129.5" width="323" height="134"/>
+                            <string key="text">      云医科技核心产品“云医通”智慧医疗解决方案。城市居民在云医通APP上可以用一个账号享受所有医院的挂号、缴费、查报告、三公里就医圈及生活圈、药品配送、床位预约等多项便捷就医服务和体验，同时统一管理自己在不同医院的就诊记录及病历信息，为慢病管理和分级诊疗提供真实可靠依据。</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="      云医科技产品全国第一个医保移动支付城市深圳智慧医院服务平台已经上线运营，齐集了深圳所有市属公立医院，为1800万深圳居民提供不一样的就医流程。这是中国第一个城市医疗服务平台，也是国家网络医疗规范的示点项目，即将成为行业标准并在全国实施。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cT-UR-FJN">
+                            <rect key="frame" x="14" y="283.5" width="323" height="134"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="      我们共同的核心理念是专注于医疗和互联网有关的事业，贴近百姓，服务医生，连接医患，致力成为中国健康管理领导品牌。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8AB-ZY-d5V">
+                            <rect key="frame" x="14" y="437.5" width="323" height="57.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="4cT-UR-FJN" firstAttribute="leading" secondItem="rff-sG-gXh" secondAttribute="leading" constant="14" id="3zi-ge-ETC"/>
+                        <constraint firstAttribute="trailing" secondItem="Xbv-em-7WQ" secondAttribute="trailing" constant="14" id="D4X-5C-aMk"/>
+                        <constraint firstItem="4cT-UR-FJN" firstAttribute="top" secondItem="Jim-Is-Ryr" secondAttribute="bottom" constant="20" id="FLY-K4-cwg"/>
+                        <constraint firstItem="Xbv-em-7WQ" firstAttribute="leading" secondItem="rff-sG-gXh" secondAttribute="leading" constant="14" id="GQ4-VJ-Dgk"/>
+                        <constraint firstItem="Xbv-em-7WQ" firstAttribute="top" secondItem="rff-sG-gXh" secondAttribute="top" constant="14" id="J4O-I1-RHt"/>
+                        <constraint firstItem="8AB-ZY-d5V" firstAttribute="trailing" secondItem="4cT-UR-FJN" secondAttribute="trailing" id="T1U-z9-xN2"/>
+                        <constraint firstItem="Jim-Is-Ryr" firstAttribute="top" secondItem="Xbv-em-7WQ" secondAttribute="bottom" constant="20" id="Wm0-PH-kGz"/>
+                        <constraint firstItem="Jim-Is-Ryr" firstAttribute="leading" secondItem="rff-sG-gXh" secondAttribute="leading" constant="14" id="Zzj-R4-EuZ"/>
+                        <constraint firstItem="8AB-ZY-d5V" firstAttribute="leading" secondItem="4cT-UR-FJN" secondAttribute="leading" id="aIS-wC-cO3"/>
+                        <constraint firstAttribute="trailing" secondItem="Jim-Is-Ryr" secondAttribute="trailing" constant="14" id="rRa-RK-dOd"/>
+                        <constraint firstItem="8AB-ZY-d5V" firstAttribute="top" secondItem="4cT-UR-FJN" secondAttribute="bottom" constant="20" id="sQj-Tq-DYs"/>
+                        <constraint firstAttribute="trailing" secondItem="4cT-UR-FJN" secondAttribute="trailing" constant="14" id="vdI-0A-16m"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="rff-sG-gXh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="12" id="2XU-Ed-kTc"/>
+                <constraint firstAttribute="trailing" secondItem="rff-sG-gXh" secondAttribute="trailing" constant="12" id="Lfl-wc-xoh"/>
+                <constraint firstAttribute="bottom" secondItem="rff-sG-gXh" secondAttribute="bottom" constant="12" id="MLh-9h-IRe"/>
+                <constraint firstItem="rff-sG-gXh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="PIf-M6-zZb"/>
+            </constraints>
+            <connections>
+                <outlet property="label1" destination="Xbv-em-7WQ" id="03N-J7-Qwm"/>
+                <outlet property="label2" destination="Jim-Is-Ryr" id="Jf0-Ua-iSB"/>
+                <outlet property="label3" destination="4cT-UR-FJN" id="pCd-uT-f6q"/>
+                <outlet property="label4" destination="8AB-ZY-d5V" id="vkq-1N-mEP"/>
+            </connections>
+        </view>
+    </objects>
+</document>

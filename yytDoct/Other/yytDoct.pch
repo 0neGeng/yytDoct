@@ -1,0 +1,25 @@
+//
+//  yytDoct.pch
+//  yytDoct
+//
+//  Created by WangGeng on 2017/1/5.
+//  Copyright © 2017年 WangGeng. All rights reserved.
+//
+
+#ifndef yytDoct_h
+#define yytDoct_h
+
+#import "GlobalConst.h"
+#import "UIView+Frame.h"
+#import <UMMobClick/MobClick.h>
+#define WGColor(r, g, b, a) [UIColor colorWithRed:(r) / 256.0 green:(g) / 256.0 blue:(b) / 256.0 alpha:a]
+#define YYTScreenH [UIScreen mainScreen].bounds.size.height
+#define YYTScreenW [UIScreen mainScreen].bounds.size.width
+
+#ifdef DEBUG // 开发阶段-DEBUG阶段:使用Log
+#define NSLog(...) NSLog(@"%s %d \n%@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
+#else // 发布阶段-上线阶段:移除Log
+#define XMGLog(...)
+#endif
+
+#endif /* yytDoct_h */

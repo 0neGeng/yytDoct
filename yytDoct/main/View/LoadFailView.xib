@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LoadFailView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XQ8-jh-Nha">
+                    <rect key="frame" x="0.0" y="189" width="375" height="0.0"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请检查您的手机是否联网" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8PN-6j-yPo">
+                    <rect key="frame" x="0.0" y="197" width="375" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MA3-S2-l0l">
+                    <rect key="frame" x="107.5" y="234" width="160" height="44"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="160" id="BMa-71-9u4"/>
+                        <constraint firstAttribute="height" constant="44" id="h2C-WX-lOC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="8"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="reloadClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="K2P-nz-XCi"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_dataloading_failure" translatesAutoresizingMaskIntoConstraints="NO" id="IR4-ws-NaN">
+                    <rect key="frame" x="149" y="102" width="77" height="57"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="77" id="rdv-x3-rt7"/>
+                        <constraint firstAttribute="height" constant="57" id="wEi-vG-iCx"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8PN-6j-yPo" secondAttribute="trailing" id="01Q-rp-nRL"/>
+                <constraint firstItem="XQ8-jh-Nha" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="6iI-lP-WmJ"/>
+                <constraint firstItem="IR4-ws-NaN" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="AIe-xD-hU2"/>
+                <constraint firstItem="8PN-6j-yPo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="L9M-xL-z33"/>
+                <constraint firstItem="XQ8-jh-Nha" firstAttribute="top" secondItem="IR4-ws-NaN" secondAttribute="bottom" constant="30" id="PYJ-ID-BBz"/>
+                <constraint firstItem="8PN-6j-yPo" firstAttribute="top" secondItem="XQ8-jh-Nha" secondAttribute="bottom" constant="8" id="U5b-gX-nYV"/>
+                <constraint firstAttribute="trailing" secondItem="XQ8-jh-Nha" secondAttribute="trailing" id="e0w-6P-mFX"/>
+                <constraint firstItem="MA3-S2-l0l" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="euR-y8-yjb"/>
+                <constraint firstItem="MA3-S2-l0l" firstAttribute="top" secondItem="8PN-6j-yPo" secondAttribute="bottom" constant="20" id="umE-A0-pQF"/>
+                <constraint firstItem="IR4-ws-NaN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="102" id="za8-4p-rnV"/>
+            </constraints>
+            <connections>
+                <outlet property="imgHeight" destination="wEi-vG-iCx" id="9as-4C-xhS"/>
+                <outlet property="imgView" destination="IR4-ws-NaN" id="eSu-cg-UJu"/>
+                <outlet property="imgWidth" destination="rdv-x3-rt7" id="NZh-zu-7tg"/>
+                <outlet property="subTitleLable" destination="8PN-6j-yPo" id="5b9-te-lcP"/>
+                <outlet property="titleLable" destination="XQ8-jh-Nha" id="yrx-Gx-bdz"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="img_dataloading_failure" width="150" height="90"/>
+    </resources>
+</document>

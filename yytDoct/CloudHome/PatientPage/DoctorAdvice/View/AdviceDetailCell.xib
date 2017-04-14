@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="AdviceDetailCell" rowHeight="88" id="KGk-i7-Jjw" customClass="AdviceDetailCell">
+            <rect key="frame" x="0.0" y="0.0" width="462" height="88"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="462" height="87"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="医嘱名称" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OGM-hU-4zR">
+                        <rect key="frame" x="0.0" y="0.0" width="173.5" height="86.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="用法" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6d-7l-yDR">
+                        <rect key="frame" x="367" y="0.0" width="95" height="86.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="用药途径" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xn8-1o-Ktz">
+                        <rect key="frame" x="270.5" y="0.0" width="95.5" height="86.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="每次用量" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EC7-kd-VN3">
+                        <rect key="frame" x="174.5" y="0.0" width="95" height="86.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                <constraints>
+                    <constraint firstItem="xn8-1o-Ktz" firstAttribute="width" secondItem="Q6d-7l-yDR" secondAttribute="width" id="79N-yj-Dg6"/>
+                    <constraint firstItem="OGM-hU-4zR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="7Ad-X3-H7k"/>
+                    <constraint firstAttribute="bottom" secondItem="EC7-kd-VN3" secondAttribute="bottom" constant="1" id="8hZ-vN-IkX"/>
+                    <constraint firstItem="EC7-kd-VN3" firstAttribute="leading" secondItem="OGM-hU-4zR" secondAttribute="trailing" constant="1" id="AcC-IS-qxs"/>
+                    <constraint firstAttribute="trailing" secondItem="Q6d-7l-yDR" secondAttribute="trailing" id="Agq-rx-1KO"/>
+                    <constraint firstAttribute="bottom" secondItem="Q6d-7l-yDR" secondAttribute="bottom" constant="1" id="ErU-1T-Xdb"/>
+                    <constraint firstItem="Q6d-7l-yDR" firstAttribute="leading" secondItem="xn8-1o-Ktz" secondAttribute="trailing" constant="1" id="GSy-AH-cjT"/>
+                    <constraint firstItem="xn8-1o-Ktz" firstAttribute="leading" secondItem="EC7-kd-VN3" secondAttribute="trailing" constant="1" id="KUK-NT-4yA"/>
+                    <constraint firstAttribute="bottom" secondItem="xn8-1o-Ktz" secondAttribute="bottom" constant="1" id="Lyo-eQ-h4c"/>
+                    <constraint firstItem="Q6d-7l-yDR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="OVw-l0-AI8"/>
+                    <constraint firstAttribute="bottom" secondItem="OGM-hU-4zR" secondAttribute="bottom" constant="1" id="dQZ-f8-I8S"/>
+                    <constraint firstItem="EC7-kd-VN3" firstAttribute="width" secondItem="xn8-1o-Ktz" secondAttribute="width" id="nad-0C-yMA"/>
+                    <constraint firstItem="OGM-hU-4zR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="pRb-Yq-aY6"/>
+                    <constraint firstItem="OGM-hU-4zR" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="135/360" id="vhi-1r-bae"/>
+                    <constraint firstItem="EC7-kd-VN3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="xyv-iG-Scc"/>
+                    <constraint firstItem="xn8-1o-Ktz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="z0B-Ct-nrD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="itemFrequen" destination="Q6d-7l-yDR" id="YvT-5V-eKw"/>
+                <outlet property="itemUnit" destination="EC7-kd-VN3" id="NVH-N9-FVz"/>
+                <outlet property="itemUse" destination="xn8-1o-Ktz" id="e18-dG-6wB"/>
+                <outlet property="nameLabel" destination="OGM-hU-4zR" id="8lg-NW-DBd"/>
+            </connections>
+            <point key="canvasLocation" x="95" y="-103"/>
+        </tableViewCell>
+    </objects>
+</document>

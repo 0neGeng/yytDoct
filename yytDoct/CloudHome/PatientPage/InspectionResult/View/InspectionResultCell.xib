@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="InspectionResultCell" rowHeight="192" id="KGk-i7-Jjw" customClass="InspectionResultCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="192"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="287" height="191"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="科室:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ors-bv-m4D">
+                        <rect key="frame" x="82" y="15" width="38" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="住院号:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcl-Nk-LvO">
+                        <rect key="frame" x="24" y="15" width="54" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="科室:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yjg-iS-Jk6">
+                        <rect key="frame" x="66" y="45" width="38" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="床号:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ObN-cB-oUr">
+                        <rect key="frame" x="24" y="45" width="38" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="科室:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kEz-03-xFv">
+                        <rect key="frame" x="98" y="75" width="38" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="报告名称:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yds-P1-fqq">
+                        <rect key="frame" x="24" y="75" width="70" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="科室:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XOE-p4-zRm">
+                        <rect key="frame" x="98" y="105" width="38" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="报告时间:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ha1-it-cob">
+                        <rect key="frame" x="24" y="105" width="70" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CrU-0j-dPk">
+                        <rect key="frame" x="8" y="182" width="271" height="1"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="bLv-6g-MlW"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jcl-Nk-LvO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="7" id="2aL-Rc-S7h"/>
+                    <constraint firstItem="Ors-bv-m4D" firstAttribute="centerY" secondItem="jcl-Nk-LvO" secondAttribute="centerY" id="7ZH-3u-GvD"/>
+                    <constraint firstItem="XOE-p4-zRm" firstAttribute="centerY" secondItem="ha1-it-cob" secondAttribute="centerY" id="8MP-8X-XDP"/>
+                    <constraint firstItem="yjg-iS-Jk6" firstAttribute="top" secondItem="Ors-bv-m4D" secondAttribute="bottom" constant="10" id="966-UY-qpx"/>
+                    <constraint firstItem="yjg-iS-Jk6" firstAttribute="centerY" secondItem="ObN-cB-oUr" secondAttribute="centerY" id="FXt-S1-Zn7"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="CrU-0j-dPk" secondAttribute="trailing" id="Hq4-l8-c2b"/>
+                    <constraint firstItem="kEz-03-xFv" firstAttribute="leading" secondItem="Yds-P1-fqq" secondAttribute="trailing" constant="4" id="Jgl-XE-psp"/>
+                    <constraint firstItem="Yds-P1-fqq" firstAttribute="leading" secondItem="jcl-Nk-LvO" secondAttribute="leading" id="KZp-fN-3oV"/>
+                    <constraint firstItem="ha1-it-cob" firstAttribute="top" secondItem="Yds-P1-fqq" secondAttribute="bottom" constant="10" id="LWv-Sc-roD"/>
+                    <constraint firstItem="ObN-cB-oUr" firstAttribute="leading" secondItem="jcl-Nk-LvO" secondAttribute="leading" id="XCM-6f-U3C"/>
+                    <constraint firstItem="CrU-0j-dPk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="XMI-9p-Vvs"/>
+                    <constraint firstItem="Ors-bv-m4D" firstAttribute="leading" secondItem="jcl-Nk-LvO" secondAttribute="trailing" constant="4" id="bVE-JD-k65"/>
+                    <constraint firstItem="ObN-cB-oUr" firstAttribute="top" secondItem="jcl-Nk-LvO" secondAttribute="bottom" constant="10" id="hfu-ey-JBq"/>
+                    <constraint firstItem="XOE-p4-zRm" firstAttribute="leading" secondItem="ha1-it-cob" secondAttribute="trailing" constant="4" id="iCT-Ye-oOA"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="CrU-0j-dPk" secondAttribute="bottom" id="kvm-1E-Zhv"/>
+                    <constraint firstItem="kEz-03-xFv" firstAttribute="centerY" secondItem="Yds-P1-fqq" secondAttribute="centerY" id="lmh-id-gsi"/>
+                    <constraint firstItem="yjg-iS-Jk6" firstAttribute="leading" secondItem="ObN-cB-oUr" secondAttribute="trailing" constant="4" id="ojT-R3-qUt"/>
+                    <constraint firstItem="ha1-it-cob" firstAttribute="leading" secondItem="jcl-Nk-LvO" secondAttribute="leading" id="pgM-OG-BtV"/>
+                    <constraint firstItem="jcl-Nk-LvO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="16" id="uCP-fd-Su5"/>
+                    <constraint firstItem="Yds-P1-fqq" firstAttribute="top" secondItem="ObN-cB-oUr" secondAttribute="bottom" constant="10" id="uDY-rN-yMX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bedNum" destination="yjg-iS-Jk6" id="i4y-lp-tIL"/>
+                <outlet property="hospitalNum" destination="Ors-bv-m4D" id="r0U-nm-fG7"/>
+                <outlet property="reportName" destination="kEz-03-xFv" id="rhf-jg-c1c"/>
+                <outlet property="reportTime" destination="XOE-p4-zRm" id="dC5-xl-B8q"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="128"/>
+        </tableViewCell>
+    </objects>
+</document>
